@@ -9,7 +9,7 @@ let personalMovieDB = {
 }
 let name,mark;
 for (let i = 0; i < numberOfFilms; i++) {
-     name = prompt("Один из просмотренных фильмов?");
+     name = prompt("Один из просмотренных фильмов?","");
     if ((name.length >= 50)||(name == "")){
        alert("error");
         do{
@@ -30,12 +30,3 @@ if (personalMovieDB.count < 10) {
 } else {
     alert("ERROR 404")
 }
-
-//   if (name == "") {
- //       do{
- //       name = prompt("Вы не ввели название фильма");
-//        }while(name=="")
-//} else if (name.length >= 50) {
-       
-           
-  //  }
