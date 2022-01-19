@@ -13,6 +13,7 @@ for (let i = 0; i < numberOfFilms; i++) {
     if ((name.length >= 50)||(name == "")){
        alert("error");
         do{
+        alert("error");
         name = prompt("Введите корректное название");
         }while((name.length >= 50)||(name == "")) 
     }
